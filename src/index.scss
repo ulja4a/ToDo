@@ -8,17 +8,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .todo {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   max-width: 700px;
-  height: 80vh;
+  height: 430px;
+  box-shadow: 1px 2px 20px #f3f3f3;
+  border-radius: 10px;
+  border: 1px solid #f1f1f1;
+  font-size: 14px;
 
   &__sidebar {
     background-color: #f4f6f8;
-    width: 200px;
+    border: 1px solid #f1f1f1;
+    padding: 60px 20px;
   }
 }
