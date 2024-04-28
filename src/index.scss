@@ -28,5 +28,40 @@
     background-color: #f4f6f8;
     border: 1px solid #f1f1f1;
     padding: 60px 20px;
+    min-width: 200px;
+  }
+
+  &__tasks {
+    min-width: 400px;
+  }
+}
+
+.button {
+  background-color: #05acac;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(#05acac, 5%);
+  }
+
+  &:active {
+    background-color: darken(#05acac, 8%);
+  }
+}
+
+.field {
+  background-color: #ffffff;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 12px;
+  width: 100%;
+
+  &:focus {
+    border-color: #cecccc;
   }
 }
